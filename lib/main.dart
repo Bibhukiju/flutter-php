@@ -18,7 +18,7 @@ class MyApp extends StatefulWidget {
 
 class _MyAppState extends State<MyApp> {
   Future<List> _getData() async {
-    final res = await http.get("http://192.168.1.17/pasal/getdata.php");
+    final res = await http.get("http://192.168.1.17/php/getdata.php");
     return jsonDecode(res.body);
   }
 

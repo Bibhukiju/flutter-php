@@ -13,7 +13,7 @@ TextEditingController cprice = new TextEditingController();
 
 class _NewDataState extends State<NewData> {
   void addData() {
-    var url = "http://192.168.1.17/pasal/adddata.php";
+    var url = "http://192.168.1.17/php/adddata.php";
     http.post(url, body: {"name": cname.text, "price": cprice.text});
   }
 
