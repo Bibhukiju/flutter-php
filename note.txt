@@ -1,0 +1,6 @@
+->copy php folder in htdocs inside your xampp server
+
+->DBName=>pasaldb
+
+tablename=>priceList
+
